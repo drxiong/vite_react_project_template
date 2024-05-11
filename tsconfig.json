@@ -1,0 +1,29 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "module": "ESNext",
+    "moduleResolution": "Node",
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "strict": true,
+    "sourceMap": true,
+    "skipLibCheck": true,
+    "isolatedModules": true,
+    "allowJs": true,
+    "lib": [
+      "ESNext",
+      "DOM"
+    ],
+    "baseUrl": ".",
+    "jsx": "react",
+    "outDir": ".",
+    "paths": {
+      "@src/*": [
+        "./src/*"
+      ],
+    },
+    // "types": ["vitest/globals"],
+    // "typeRoots": ["./node_modules/@types", "./typings"]
+  },
+  "exclude": ["*.js", "build", "env", "static"]
+}
