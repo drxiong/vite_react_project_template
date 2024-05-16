@@ -1,6 +1,7 @@
-import React from 'react';
-import { Menu } from 'antd';
-import { Link } from 'react-router-dom';
+// eslint-disable-next-line @typescript-eslint/no-unused-vars
+import React from 'react'
+import { Menu } from 'antd'
+import { Link } from 'react-router-dom'
 
 function AppMenu() {
   return (
@@ -12,7 +13,7 @@ function AppMenu() {
         <Link to="/about">About</Link>
       </Menu.Item>
     </Menu>
-  );
+  )
 }
 
-export default AppMenu;
+export default AppMenu
